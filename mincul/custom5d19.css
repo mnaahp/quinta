@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/*** CABECERA ***/
+
+.cabecera-cultura{background-color:#000;}
+.culturaheaderlogo img{width:96%;height:auto;margin-top:2px;}
+.culturaheaderlogo{float:left;margin-top:2px;margin-bottom:2px;}
+.culturaheaderlogo p{margin-bottom:0;}
+.culturaheadermenu{float:right;}
+.culturaheadermenu ul li{float:left;display:block;width:15px;height:50px;margin:1px;padding:0;overflow:hidden;transition:width .3s;}
+.culturaheadermenu ul li:hover{float:left;display:block;width:157px;height:50px;list-style:none;line-height:18px;}
+.culturaheadermenu ul li a{width:15px;height:100%;display:block;text-indent:-99999px;text-align:left;padding-top:6px;}
+.culturaheadermenu ul li:hover a{text-decoration:none;display:block;width:160px;height:100%;text-indent:0;font-size:13.5px;text-transform:uppercase;}
+
+.culturaheadermenu .culturaheadermenupc a{background: url("../images/flecha.html") no-repeat scroll -5px 28px #D16800;}
+.culturaheadermenu .culturaheadermenuica a{background: url("../images/flecha.html") no-repeat scroll -5px 28px #7A007A;}
+.culturaheadermenu .culturaheadermenui a{background:url("../images/flecha.html") no-repeat scroll -5px 28px #086666;}
+.culturaheadermenu .culturaheadermenudp a{background:url("../images/flecha.html") no-repeat scroll -5px 28px #004870;}
+
+.culturaheadermenu .culturaheadermenupc a:hover{border-left:5px solid #D16800;background:#D16800;color:white;opacity:0.7;}
+.culturaheadermenu .culturaheadermenuica a:hover{border-left:5px solid #7A007A;background:#7A007A;color:white;opacity:0.7;}
+.culturaheadermenu .culturaheadermenui a:hover{border-left:5px solid #086666;background:#086666;color:white;opacity:0.7;}
+.culturaheadermenu .culturaheadermenudp a:hover{border-left:5px solid #004870;background:#004870;color:white;opacity:0.7;}
+
+/*** CABECERA FIN ***/
+
+
+.cabecera_estandar {
+  background: black;
+}
+
+.cabecera_estandar .text-left img {
+    padding-top: 5px;
+}
+
+
+.footer_second {
+    color:#ffffff;
+    background: #000000;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cultura_datos {
+    font-size: 12px;
+    line-height: 17px;
+}
+
+
+.footer_first {
+    background: #2B2F35;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.footer_first .footer_titulo,
+.footer_first .contactanos,
+.footer_first .contactanos a,
+.footer_first .enlace_img,
+.footer_first .enlace_img a {
+    font-size: 1rem;
+    color: #f2f2f2;
+    text-transform: uppercase;
+}
+
+.footer_first .contactanos div {
+    font-size: 12px;
+    padding-left: 12%;
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+.footer_first .contactanos #home {
+    background: url(imagenes/icon-home.html) left 3px no-repeat #2B2F35;
+}
+
+.footer_first .contactanos #telefono {
+    background: url(imagenes/icon-cel.html) left 3px no-repeat #2B2F35;
+}
+
+.footer_first .contactanos #email {
+    background: url(imagenes/icon-email.html) left 3px no-repeat #2B2F35;
+}
+
+.footer_first .contactanos #reloj {
+    background: url(imagenes/icon-reloj.html) left 3px no-repeat #2B2F35;
+}
+
+.footer_first .contactanos #web {
+    background: url(imagenes/icon-web.html) left 3px no-repeat #2B2F35;
+}
+
+
+
+
+/* 20210512 - SEMILLA DEL TIEMPO */
+
+header, footer { background:#000; }
+
+.semilla-header-topbar { padding:10px 0; }
+.semilla-header-topbar .field__items li { display:flex; justify-content:space-between; align-items:center; }
+
+img { max-width:100%; }
+.logo-cultura { max-height:40px; }
+.logo-bicentenario { max-height:60px; }
+
+.cabecera { background:#A21A17; }
+.header_first { position:relative; }
+.header_first img, .header_second img { max-height:70px; margin:1.5rem 0; }
+.header_second { text-align:right; }
+
+.js-scroll-navbar { /*display:none !important;*/ }
+
+
+footer { font-size:12px; line-height:17px; color:#FFF; }
+footer a { color:#FFF; }
+footer a:hover { color:#FFF; opacity:.5; }
+.footer_first { padding:2.5rem 0 2rem; background:#2C2C2C; }
+.footer_first h4 { font-weight:bold; text-transform: uppercase; margin-bottom: .75rem; }
+.footer_first ul { padding-right:10%; }
+.footer_first .footer-contacto li { padding-left:24px; margin-bottom:.5rem; background-repeat:no-repeat; background-position:left top; }
+.footer_first .footer-contacto li.direccion { background-image:url('imagenes/icon-home.html'); }
+.footer_first .footer-contacto li.telefono { background-image:url('imagenes/icon-cel.html'); }
+.footer_first .footer-contacto li.email { background-image:url('imagenes/icon-email.html'); }
+.footer_first .footer-contacto li.web { background-image:url('imagenes/icon-web.html'); }
+.footer_first .footer-enlaces li { margin-bottom:1rem; }
+.footer_second { font-size:12px; padding:2rem 0; }
+
+
+@media (max-width:767.98px){
+
+  .header_first, .header_second { -ms-flex: 0 0 50% !important; flex: 0 0 50% !important; max-width:50% !important; }
+
+  footer .logo-mnaahp { max-height:80px; margin-bottom:1rem; }
+  .footer_first ul { padding:0; }
+
+}
+
+@media (max-width:575.98px){ 
+
+  img.logo-cultura { height:30px; }
+  img.logo-bicentenario { height:45px; }
+
+  .footer_first .footer-contacto { margin-bottom:1rem; }
+  .footer_first .footer-contacto li { margin-bottom:0; padding-left:0; background-image:none !important; }
+
+}
+
